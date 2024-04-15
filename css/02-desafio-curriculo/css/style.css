@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-photo { 
+    width: 50px;
+}
