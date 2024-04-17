@@ -10,6 +10,11 @@
 
 body { 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: #E4EAF2;
+}
+
+h1, h2, h3 {
+    color: #011C40;
 }
 
 main {
@@ -18,6 +23,18 @@ main {
     text-align: center;
 }
 
+.qualifications-info {
+    background-color: #BFCAD9;
+}
+
+.photo-box {
+    background-color: #0B2126;
+}
+
 .profile-photo { 
-    width: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 2%;
+    border: 2px solid gray;
 }
