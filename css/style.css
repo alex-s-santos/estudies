@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main { 
+    width: 400px;
+    margin: 5% auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-top: 5%;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.study-road-map {
+    margin: 7% 15%;
+}
+
+.pages {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.pages:hover {
+    color: #000;
+    border-bottom: #000 1px solid;
+}
+
+/*General*/
+.main-study-place {
+    margin: 5% auto;
+}
