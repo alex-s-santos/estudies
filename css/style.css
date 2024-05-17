@@ -43,4 +43,64 @@ p {
 /*General*/
 .main-study-place {
     margin: 5% auto;
+    padding: 3%;
+    border: 1px solid #000;
+    border-radius: 2%;
+    height: 500px;
 }
+
+.action-place {
+    padding: 3%;
+}
+
+.inputs {
+    height: 3rem;
+    width: 70%;
+    background-color: gray;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding-left: 5%;
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 20px;
+    padding-left: 3%;
+ }
+ :-moz-placeholder {
+    color: #ccc;
+    font-size: 20px;
+    padding-left: 3%;
+ }
+ ::-moz-placeholder {
+    color: #ccc;  
+    font-size: 20px;
+    padding-left: 3%;
+ }
+
+ :-ms-input-placeholder {  
+    color: #ccc;  
+    font-size: 20px;
+    padding-left: 3%;
+ }
+
+ .btn {
+    background-color: rgb(144, 175, 175);
+    border: 1px solid;
+    margin: 2px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px 0 15px 0;
+    box-shadow: 2px 2px 20px gray;
+ }
+
+ .btn:hover {
+    background-color: rgba(144, 175, 175, 0.445);
+    color: #000;
+    cursor: pointer;
+ }
+
+ .return {
+    font-size: 1.3rem;
+ }
