@@ -16,12 +16,19 @@
             <h1>Retornando valor obtido </h1>
 
             <div class="action-place">
-                <input type="text" placeholder="Digite seu nome" class="inputs" id="nameBox">
-                <input type="button" value="Acionar" class="btn" onclick="returnName()">
+                <input type="number" name="n1" id="n1" placeholder="Digite um número" class="inputs" style="margin-bottom: 5px;">
+                <input type="number" name="n2" id="n2" placeholder="Digite outro número" class="inputs" style="margin-bottom: 5px;">
+                
+                <p value="">SOMA <input type="button" value="Calcular" class="btn" onclick="returnSum()"></p>
+                <p value="">SUBTRAÇÃO <input type="button" value="Calcular" class="btn" onclick="returnSubtraction()"></p>
+                <p value="">MULTIPLICAÇÃO <input type="button" value="Calcular" class="btn" onclick="returnMultiplication()"></p>
+                <p value="">DIVISÃO <input type="button" value="Calcular" class="btn" onclick="returnDivision()"></p>
+                
+                
                 <p id="return" class="return"></p>
             </div>
 
-            <script src="/archives/01-variables/script.js"></script>
+            <script src="/archives/02-arithmetic-operators/arithmetic.js"></script>
         </section>
     </main>
 </body>
